@@ -1,0 +1,100 @@
+body {
+    color: black;
+    background-image: url("./images/bg.png");
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 800px;
+    margin: auto;
+}
+h1, h2 {
+    color: darkred;
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+
+a {
+    color: darkred
+}
+a :link{
+    color: darkred;
+}
+a :visited{
+    color: maroon
+}
+
+nav {
+    position: fixed;
+    margin: auto;
+    top: 0px;
+    right: 0px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    padding: 3px 0px 3px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+nav a {
+    padding: 2px 10px 2px 10px;
+    border-right: 2px solid white;
+}
+.navigationslink :link {
+    color: white;
+    text-decoration: none;
+}
+.navigationslink :visited {
+    color: white;
+    text-decoration: none;
+}
+.navigationslink :hover {
+    color: darkred;
+    text-decoration: none;
+}
+#aktuellernavlinkportfolio {
+    color: darkred;
+    text-decoration: none;
+}
+#aktuellernavlinkaboutme {
+    color: darkred;
+    text-decoration: none;
+}
+#aktuellernavlinkcontact {
+    color: darkred;
+    text-decoration: none;
+}
+
+div {
+    margin: auto;
+    float: right;
+}
+div :hover {
+    transition-duration: 1s;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 50px;
+    height: 50px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+article {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    padding: 2px 0px 2px 2px;
+    margin-bottom: 10px;
+}
+#message {
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
