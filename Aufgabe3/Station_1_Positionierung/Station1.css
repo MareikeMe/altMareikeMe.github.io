@@ -1,0 +1,46 @@
+body {
+    color: white;
+    background-image: url("./images/bg.png");
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+div{
+    margin: 0;
+    max-width:600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.positionbusch {
+    position: absolute;
+    left: -60px;
+    top: -60px;
+}
+
+.positionpinguin {
+    position: absolute;
+    right: -30px;
+    bottom: -20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    width: 430px;
+}

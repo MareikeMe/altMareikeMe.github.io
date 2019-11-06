@@ -1,0 +1,30 @@
+body {
+    color: white;
+    background-image: url("./images/bg.png");
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+div{
+    margin: 0;
+    max-width:600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dings {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+iframe {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,53 @@
+body {
+    color: white;
+    background-image: url("./images/bg.png");
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.card {
+    margin: 0;
+    max-width:600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container1 {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    height: 65px;
+    width: 65px;
+}
+
+.stern1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+
+}
+
+.container1:hover .stern1 {
+    opacity: 0;
+}
+
+.sternhover {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

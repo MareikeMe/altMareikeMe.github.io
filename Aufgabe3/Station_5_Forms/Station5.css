@@ -1,0 +1,40 @@
+body {
+    color: white;
+    background-image: url("./images/bg.png");
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+div{
+    margin: 0;
+    max-width:600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+form {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 4px;
+}
+
+#message {
+    padding-bottom: 50px;
+    width: 250px;
+}

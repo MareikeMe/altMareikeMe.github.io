@@ -12,6 +12,7 @@ h1, h2 {
 }
 h1 {
     font-size: 30px;
+    margin-top: 50px;
 }
 h2 {
     font-size: 25px;
@@ -88,6 +89,7 @@ div :hover {
 article {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
 }
 
 input {
@@ -97,4 +99,8 @@ input {
 #message {
     padding-bottom: 50px;
     padding-right: 100px;
+}
+
+video {
+    margin-bottom: 40px;
 }

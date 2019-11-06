@@ -1,0 +1,76 @@
+body {
+    color: white;
+    background-image: url("./images/bg.png");
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+div{
+    margin: 0;
+    max-width:600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.plant {
+    position: absolute;
+    top: -50px;
+    left: -60px;
+}
+
+.gifts {
+    position: absolute;
+    bottom: -30px;
+    right: -40px;
+    z-index: 2;
+}
+
+video {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+}
+
+.stern1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 1;
+}
+
+.stern2 {
+    position: absolute;
+    top: 70px;
+    right: 150px;
+    z-index: 2;
+}
+
+.stern3 {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 340px;
+    z-index: 2;
+}

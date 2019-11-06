@@ -1,0 +1,35 @@
+body {
+    color: white;
+    background-color: darkred;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    margin-top: 100px;
+}
+
+a {
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
