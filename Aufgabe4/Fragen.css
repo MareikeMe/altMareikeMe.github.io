@@ -1,0 +1,114 @@
+body {
+    color:white;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    background-image: url("./images/bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    height: 400px;
+}
+
+.Fragenfeld {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Antwort1box {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Antwort2box {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Antwort3box {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Antwort4box {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.Frage {
+    font-size: 14px;
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.Antwort1 {
+    font-size: 14px;
+    width: 60%;
+    position: absolute;
+    top: 5px;
+    left: 20%;
+}
+
+.Antwort2 {
+    font-size: 14px;
+    width: 60%;
+    position: absolute;
+    top: 5px;
+    left: 20%;
+}
+
+.Antwort3 {
+    font-size: 14px;
+    width: 60%;
+    position: absolute;
+    top: 5px;
+    left: 20%;
+}
+
+.Antwort4 {
+    font-size: 14px;
+    width: 60%;
+    position: absolute;
+    top: 5px;
+    left: 20%;
+}
