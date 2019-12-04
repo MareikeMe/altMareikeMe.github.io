@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    width: 470px;
+    margin: auto;
+}
+
+.button {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+#percussion {
+    position: relative;
+    margin: 5px;
+    height: 150px;
+    width: 460px;
+}
+#kick {
+    left: 0px;
+    background-color: rgb(7, 60, 231);
+}
+#snare {
+    left: 155px;
+    background-color: rgb(7, 60, 231);
+}
+#highhat {
+    left: 310px;
+    background-color: rgb(7, 60, 231);
+}
+
+
+#note {
+    position: relative;
+    margin: 5px;
+    height: 150px;
+    width: 460px;
+}
+#f {
+    left: 0px;
+    background-color: rgb(219, 21, 170);
+}
+#g {
+    left: 155px;
+    background-color: rgb(219, 21, 170);
+}
+#a {
+    left: 310px;
+    background-color: rgb(219, 21, 170);
+}
+
+
+#laugh {
+    position: relative;
+    margin: 5px;
+    height: 150px;
+    width: 460px;
+}
+#c {
+    left: 0px;
+    background-color: rgb(219, 21, 170);
+}
+#laugh1 {
+    left: 155px;
+    background-color: rgb(219, 144, 4);
+}
+#laugh2 {
+    left: 310px;
+    background-color: rgb(219, 144, 4);
+}
+
+
+#play {
+    position: relative;
+    left: 155px;
+}
