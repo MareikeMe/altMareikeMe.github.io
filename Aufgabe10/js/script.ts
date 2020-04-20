@@ -18,8 +18,8 @@ interface Todos {
 }
 
 var todos: Todos = {
-    text: ["Lorem" , "Ipsum" , "Dolor"],
-    checked: [false    , true   , false]
+    text: ["Lorem", "Ipsum", "Dolor"],
+    checked: [false, true, false]
 };
 
 

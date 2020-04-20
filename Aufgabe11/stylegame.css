@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: yellow;
+}
+
+#flächespieler {
+    position: absolute;
+    left: 0%;
+    width: 40%;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+#spielfläche {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    height: 700px;
+    background-color: rgba(121, 121, 121, 0.425);
+}
+
+#ziehstapel {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 100px;
+}
+
+#ablegestapel {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 400px;
+}
+
+#flächecomputer {
+    position: relative;
+    left: 60%;
+    width: 40%;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+#card {
+    position: relative;
+    margin: auto;
+    height: 200px;
+    width: 150px;
+    border-width: 20px;
+    border: solid;
+    border-color: black;
+    background-color: blue;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+}
