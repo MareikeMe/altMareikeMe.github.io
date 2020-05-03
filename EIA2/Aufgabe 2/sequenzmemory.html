@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sequence Memory</title>
+    <link rel="stylesheet" href="sequenzmemory.css">
+</head>
+<body>
+    <h1>Sequence Memory</h1>
+    <p>
+        <label for="sequence">choose sequence</label>
+        <select id="sequence">
+            <option value="Sentence one.">Sentence one.</option>
+            <option value="Sentence two.">Sentence two.</option>
+            <option value="Sentence three.">Sentence three.</option>
+        </select>
+        OR
+        <label for="own">write own sequnce</label>
+        <input type="text" id="own" name="own">
+        <label for="time">choose time</label>
+        <select id="time">
+            <option value="180">3min</option>
+            <option value="120">2min</option>
+            <option value="60">1min</option>
+        </select>
+        <button type="button" id="start">Start</button>
+    </p>
+    <p>
+        <span id="progress">progress: </span>
+        <span id="lefttime">left time </span>
+        <span id="help">press any key for help</span>
+    </p>
+    <div>
+
+    </div>
+
+    <script src="sequenzmemory.js"></script>
+</body>
