@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Haushaltshilfe</title>
+	<link rel="stylesheet" href="Haushaltshilfe.css" type="text/css" media="screen" />
+	<script src="Haushaltshilfe.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Haushaltshilfe</h1>
+	</header>
+
+	<form>
+		<div id="form">
+			<fieldset>
+				<legend>Choose Chore (s)</legend>
+				<input type="checkbox" name="Chores" id="shopping" value="shopping" price="20">
+				<label for="shopping">Shopping</label>
+				<input type="checkbox" name="Chores" id="mow" value="mow" price="5">
+				<label for="mow">Mow Lawn</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Mow Lawn</legend>
+				<span id="slider">
+					<span>
+						0m²
+						<input type="range" name="mowlawn" id="mowlawn" min="0" max="40" step="1" value="0">
+						40m²
+					</span>
+					<output name="sqmmow" form="mowlawn" id="sqmmow">
+				</span>
+			</fieldset>
+
+			<fieldset>
+				<legend>Shopping</legend>
+				Article
+				<select name="Article" id="article" >
+					<option value="None" price="0">None</option>
+					<option value="Pasta" price="1.5">Pasta</option>
+					<option value="Lattuce" price="2">Lattuce</option>
+					<option value="Bread" price="2">Bread</option>
+				</select>
+				<input placeholder="Quantity" type="text" name="quantity" id="quantity">
+				Unit
+				<input type="radio" name="unit" id="kg" value="kg" checked />
+				<label for="kg">kg</label>
+				<input type="radio" name="unit" id="l" value="l" />
+				<label for="l">l</label>
+				<input type="radio" name="unit" id="item(s)" value="item(s)" />
+				<label for="item(s)">item(s)</label>
+				<output name="pricearticle" form="pricearticle" id="priceartcile"></output>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Payment Method</legend>
+				<input type="radio" name="paymeth" id="cash" value="cash" checked />
+				<label for="cash">Cash</label>
+				<input type="radio" name="paymeth" id="transfer" value="transfer" />
+				<label for="transfer">Transfer</label>
+			</fieldset>
+			
+		</div>
+	</form>
+	
+	<div>
+		<h2>Cart</h2>
+		<div id="cart">
+			Chores Total <br>
+			Chore Shopping<br>
+			Chore Mow Lawn<br>
+			Mow Lawn Total<br>
+			Shopping Total<br>
+			Total
+		</div>
+	</div>
+
+</body>
+
+</html>
